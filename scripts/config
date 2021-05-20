@@ -1,0 +1,28 @@
+#!/bin/sh
+
+conf() {
+    pth=$PWD
+    cd /home/me
+    nvim .zshrc
+    cp $pth
+}
+
+commit() {
+    mkdir /config
+    # git clone 
+    cp .zshrc zshrc
+    cp .tmux.conf tmux
+    cp init.vim /base/
+    cp coc-settings.json /base/
+    cp /settings/* /settings/
+    cp /plugins/* /plugins/
+    cp /lua/* /lua/
+    git commit -am "$1"
+    git push
+}
+
+case "$1" in
+    "") conf ;;
+    "commit") commit "$2" ;;
+    *) echo "Wrong usage" ;;
+esac

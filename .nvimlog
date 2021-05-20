@@ -1,0 +1,661 @@
+INFO  2021-05-16T23:42:02.230 23    patch_terminfo_bugs:1608: Disabling smglr with TERM=xterm for non-xterm.
+INFO  2021-05-16T23:42:02.250 23    emsg_multiline:685: E185: Cannot find color scheme 'fairyfloss' (/home/me/.config/nvim/init.vim (line 14))
+INFO  2021-05-16T23:42:02.253 23    emsg_multiline:685: E5105: Error while calling lua chunk: [string "<VimL compiled string>"]:1: module 'lualine' not found:
+	no field package.preload['lualine']
+	no file '/home/me/.config/nvim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/nord-vim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/nord-vim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/gruvbox/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/gruvbox/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/fairyfloss.vim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/fairyfloss.vim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/ayu-vim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/ayu-vim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/palenight.vim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/palenight.vim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/undotree/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/undotree/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/fzf.vim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/fzf.vim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/nerdcommenter/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/nerdcommenter/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/vim-lion/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/vim-lion/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/vim-surround/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/vim-surround/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/vim-devicons/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/vim-devicons/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/nerdtree/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/nerdtree/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/nerdtree-git-plugin/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/nerdtree-git-plugin/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/nerdtree-visual-selection/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/nerdtree-visual-selection/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/vim-nerdtree-syntax-highlight/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/vim-nerdtree-syntax-highlight/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/vim-fugitive/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/vim-fugitive/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/ultisnips/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/ultisnips/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/vim-snippets/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/vim-snippets/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/lualine.nvim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/lualine.nvim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/vim-maximizer/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/vim-maximizer/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/goyo.vim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/goyo.vim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/coc.nvim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/coc.nvim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/coc-snippets/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/coc-snippets/lua/lualine/init.lua'
+	no file '/etc/xdg/nvim/lua/lualine.lua'
+	no file '/etc/xdg/nvim/lua/lualine/init.lua'
+	no file '/home/me/.local/share/nvim/site/lua/lualine.lua'
+	no file '/home/me/.local/share/nvim/site/lua/lualine/init.lua'
+	no file '/usr/local/share/nvim/site/lua/lualine.lua'
+	no file '/usr/local/share/nvim/site/lua/lualine/init.lua'
+	no file '/usr/share/nvim/site/lua/lualine.lua'
+	no file '/usr/share/nvim/site/lua/lualine/init.lua'
+	no file '/usr/share/nvim/runtime/lua/lualine.lua'
+	no file '/usr/share/nvim/runtime/lua/lualine/init.lua'
+	no file '/usr/share/nvim/site/after/lua/lualine.lua'
+	no file '/usr/share/nvim/site/after/lua/lualine/init.lua'
+	no file '/usr/local/share/nvim/site/after/lua/lualine.lua'
+	no file '/usr/local/share/nvim/site/after/lua/lualine/init.lua'
+	no file '/home/me/.local/share/nvim/site/after/lua/lualine.lua'
+	no file '/home/me/.local/share/nvim/site/after/lua/lualine/init.lua'
+	no file '/etc/xdg/nvim/after/lua/lualine.lua'
+	no file '/etc/xdg/nvim/after/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/after/lua/lualine.lua'
+	no file '/home/me/.config/nvim/after/lua/lualine/init.lua'
+	no file './lualine.lua'
+	no file '/usr/share/moonjit-2.2.0/lualine.lua'
+	no file '/usr/local/share/lua/5.1/lualine.lua'
+	no file '/usr/local/share/lua/5.1/lualine/init.lua'
+	no file '/usr/share/lua/5.1/lualine.lua'
+	no file '/usr/share/lua/5.1/lualine/init.lua'
+	no file '/usr/share/lua/common/lualine.lua'
+	no file '/usr/share/lua/common/lualine/init.lua'
+	no file '/home/me/.config/nvim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/nord-vim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/gruvbox/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/fairyfloss.vim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/ayu-vim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/palenight.vim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/undotree/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/fzf.vim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/nerdcommenter/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/vim-lion/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/vim-surround/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/vim-devicons/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/nerdtree/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/nerdtree-git-plugin/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/nerdtree-visual-selection/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/vim-nerdtree-syntax-highlight/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/vim-fugitive/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/ultisnips/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/vim-snippets/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/lualine.nvim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/vim-maximizer/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/goyo.vim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/coc.nvim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/coc-snippets/lua/lualine.so'
+	no file '/etc/xdg/nvim/lua/lualine.so'
+	no file '/home/me/.local/share/nvim/site/lua/lualine.so'
+	no file '/usr/local/share/nvim/site/lua/lualine.so'
+	no file '/usr/share/nvim/site/lua/lualine.so'
+	no file '/usr/share/nvim/runtime/lua/lualine.so'
+	no file '/usr/share/nvim/site/after/lua/lualine.so'
+	no file '/usr/local/share/nvim/site/after/lua/lualine.so'
+	no file '/home/me/.local/share/nvim/site/after/lua/lualine.so'
+	no file '/etc/xdg/nvim/after/lua/lualine.so'
+	no file '/home/me/.config/nvim/after/lua/lualine.so'
+	no file './lualine.so'
+	no file '/usr/local/lib/lua/5.1/lualine.so'
+	no file '/usr/lib/lua/5.1/lualine.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so' (/home/me/.config/nvim/plugin/lualine.vim (line 29))
+INFO  2021-05-16T23:42:19.713 23    main:578: starting main loop
+INFO  2021-05-16T23:42:20.036 23    emsg_multiline:687: E117: Unknown function: CocActionAsync
+INFO  2021-05-16T23:42:26.702 23    on_process_exit:392: exited: pid=25 status=0 stoptime=0
+INFO  2021-05-16T23:42:26.731 23    on_process_exit:392: exited: pid=26 status=2 stoptime=0
+INFO  2021-05-16T23:42:26.740 23    channel_create_event:200: new channel 3 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 3, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:26.743 23    channel_create_event:200: new channel 4 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 4, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:26.747 23    channel_create_event:200: new channel 5 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 5, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:26.751 23    channel_create_event:200: new channel 6 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 6, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:26.756 23    channel_create_event:200: new channel 7 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 7, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:26.761 23    channel_create_event:200: new channel 8 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 8, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:26.766 23    channel_create_event:200: new channel 9 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 9, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:26.771 23    channel_create_event:200: new channel 10 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 10, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:26.777 23    channel_create_event:200: new channel 11 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 11, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:26.783 23    channel_create_event:200: new channel 12 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 12, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:26.789 23    channel_create_event:200: new channel 13 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 13, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:26.809 23    channel_create_event:200: new channel 14 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 14, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:26.817 23    channel_create_event:200: new channel 15 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 15, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:26.824 23    channel_create_event:200: new channel 16 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 16, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:26.833 23    channel_create_event:200: new channel 17 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 17, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:26.841 23    channel_create_event:200: new channel 18 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 18, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:26.921 23    emsg_multiline:687: E117: Unknown function: CocActionAsync
+INFO  2021-05-16T23:42:27.325 23    on_process_exit:392: exited: pid=63 status=0 stoptime=0
+INFO  2021-05-16T23:42:27.338 23    on_process_exit:392: exited: pid=28 status=0 stoptime=0
+INFO  2021-05-16T23:42:27.350 23    on_process_exit:392: exited: pid=27 status=0 stoptime=0
+INFO  2021-05-16T23:42:27.352 23    channel_create_event:200: new channel 19 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 19, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:27.363 23    on_process_exit:392: exited: pid=55 status=0 stoptime=0
+INFO  2021-05-16T23:42:27.377 23    channel_create_event:200: new channel 20 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 20, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:27.388 23    on_process_exit:392: exited: pid=59 status=0 stoptime=0
+INFO  2021-05-16T23:42:27.400 23    channel_create_event:200: new channel 21 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 21, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:27.417 23    on_process_exit:392: exited: pid=36 status=0 stoptime=0
+INFO  2021-05-16T23:42:27.423 23    on_process_exit:392: exited: pid=46 status=0 stoptime=0
+INFO  2021-05-16T23:42:27.429 23    channel_create_event:200: new channel 22 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 22, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:27.451 23    on_process_exit:392: exited: pid=75 status=0 stoptime=0
+INFO  2021-05-16T23:42:27.452 23    on_process_exit:392: exited: pid=29 status=0 stoptime=0
+INFO  2021-05-16T23:42:27.457 23    on_process_exit:392: exited: pid=79 status=0 stoptime=0
+INFO  2021-05-16T23:42:27.461 23    channel_create_event:200: new channel 23 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 23, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:27.483 23    on_process_exit:392: exited: pid=87 status=0 stoptime=0
+INFO  2021-05-16T23:42:27.487 23    channel_create_event:200: new channel 24 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 24, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:27.488 23    on_process_exit:392: exited: pid=50 status=0 stoptime=0
+INFO  2021-05-16T23:42:27.511 23    channel_create_event:200: new channel 25 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 25, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:27.538 23    channel_create_event:200: new channel 26 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 26, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:27.567 23    channel_create_event:200: new channel 27 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 27, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:42:27.585 23    on_process_exit:392: exited: pid=71 status=0 stoptime=0
+INFO  2021-05-16T23:42:27.593 23    on_process_exit:392: exited: pid=67 status=0 stoptime=0
+INFO  2021-05-16T23:42:27.748 23    on_process_exit:392: exited: pid=42 status=0 stoptime=0
+INFO  2021-05-16T23:42:27.950 23    on_process_exit:392: exited: pid=156 status=0 stoptime=0
+INFO  2021-05-16T23:42:27.956 23    on_process_exit:392: exited: pid=132 status=0 stoptime=0
+INFO  2021-05-16T23:42:28.050 23    on_process_exit:392: exited: pid=183 status=0 stoptime=0
+INFO  2021-05-16T23:42:28.122 23    on_process_exit:392: exited: pid=170 status=0 stoptime=0
+INFO  2021-05-16T23:42:28.126 23    on_process_exit:392: exited: pid=83 status=0 stoptime=0
+INFO  2021-05-16T23:42:28.138 23    on_process_exit:392: exited: pid=197 status=0 stoptime=0
+INFO  2021-05-16T23:42:28.470 23    on_process_exit:392: exited: pid=189 status=0 stoptime=0
+INFO  2021-05-16T23:42:28.604 23    on_process_exit:392: exited: pid=193 status=0 stoptime=0
+INFO  2021-05-16T23:42:28.734 23    on_process_exit:392: exited: pid=205 status=0 stoptime=0
+INFO  2021-05-16T23:42:30.736 23    on_process_exit:392: exited: pid=145 status=0 stoptime=0
+INFO  2021-05-16T23:42:30.778 23    on_process_exit:392: exited: pid=282 status=0 stoptime=0
+INFO  2021-05-16T23:42:30.799 23    on_process_exit:392: exited: pid=283 status=0 stoptime=0
+INFO  2021-05-16T23:42:30.821 23    on_process_exit:392: exited: pid=284 status=0 stoptime=0
+INFO  2021-05-16T23:42:30.843 23    on_process_exit:392: exited: pid=285 status=0 stoptime=0
+INFO  2021-05-16T23:42:30.864 23    on_process_exit:392: exited: pid=286 status=0 stoptime=0
+INFO  2021-05-16T23:42:30.887 23    on_process_exit:392: exited: pid=287 status=0 stoptime=0
+INFO  2021-05-16T23:42:30.911 23    on_process_exit:392: exited: pid=288 status=0 stoptime=0
+INFO  2021-05-16T23:42:30.932 23    on_process_exit:392: exited: pid=289 status=0 stoptime=0
+INFO  2021-05-16T23:42:30.954 23    on_process_exit:392: exited: pid=290 status=0 stoptime=0
+INFO  2021-05-16T23:42:30.975 23    on_process_exit:392: exited: pid=291 status=0 stoptime=0
+INFO  2021-05-16T23:42:30.997 23    on_process_exit:392: exited: pid=292 status=0 stoptime=0
+INFO  2021-05-16T23:42:31.020 23    on_process_exit:392: exited: pid=293 status=0 stoptime=0
+INFO  2021-05-16T23:42:31.041 23    on_process_exit:392: exited: pid=294 status=0 stoptime=0
+INFO  2021-05-16T23:42:31.064 23    on_process_exit:392: exited: pid=295 status=0 stoptime=0
+INFO  2021-05-16T23:42:31.085 23    on_process_exit:392: exited: pid=296 status=0 stoptime=0
+INFO  2021-05-16T23:42:31.111 23    on_process_exit:392: exited: pid=297 status=0 stoptime=0
+INFO  2021-05-16T23:42:31.132 23    on_process_exit:392: exited: pid=298 status=0 stoptime=0
+INFO  2021-05-16T23:42:31.153 23    on_process_exit:392: exited: pid=299 status=0 stoptime=0
+INFO  2021-05-16T23:42:31.174 23    on_process_exit:392: exited: pid=300 status=0 stoptime=0
+INFO  2021-05-16T23:42:31.200 23    on_process_exit:392: exited: pid=301 status=0 stoptime=0
+INFO  2021-05-16T23:42:31.231 23    on_process_exit:392: exited: pid=302 status=0 stoptime=0
+INFO  2021-05-16T23:42:31.254 23    on_process_exit:392: exited: pid=331 status=0 stoptime=0
+INFO  2021-05-16T23:42:31.276 23    on_process_exit:392: exited: pid=332 status=0 stoptime=0
+INFO  2021-05-16T23:42:31.312 23    on_process_exit:392: exited: pid=333 status=0 stoptime=0
+INFO  2021-05-16T23:42:31.334 23    on_process_exit:392: exited: pid=334 status=0 stoptime=0
+INFO  2021-05-16T23:42:31.360 23    on_process_exit:392: exited: pid=335 status=0 stoptime=0
+INFO  2021-05-16T23:42:42.666 23    channel_create_event:200: new channel 28 (function coc#rpc#start_server[17]..<SNR>83_start:56) : {"id": 28, "client": {}, "mode": "rpc", "stream": "job"}
+INFO  2021-05-16T23:43:15.283 23    on_process_exit:392: exited: pid=409 status=0 stoptime=0
+INFO  2021-05-16T23:43:15.300 23    on_process_exit:392: exited: pid=410 status=0 stoptime=0
+INFO  2021-05-16T23:43:15.331 23    on_process_exit:392: exited: pid=411 status=2 stoptime=0
+INFO  2021-05-16T23:43:15.353 23    on_process_exit:392: exited: pid=412 status=2 stoptime=0
+INFO  2021-05-16T23:43:15.355 23    channel_create_event:200: new channel 29 (function health#check[21]..health#provider#check[5]..<SNR>101_check_node[15]..<SNR>101_system:11) : {"id": 29, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:43:15.359 23    on_process_exit:392: exited: pid=413 status=0 stoptime=0
+INFO  2021-05-16T23:43:15.364 23    on_process_exit:392: exited: pid=414 status=0 stoptime=0
+INFO  2021-05-16T23:43:15.365 23    channel_create_event:200: new channel 30 (function provider#node#Detect:15) : {"id": 30, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:43:15.365 23    channel_create_event:200: new channel 31 (function provider#node#Detect:31) : {"id": 31, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:43:15.520 23    on_process_exit:392: exited: pid=416 status=0 stoptime=0
+INFO  2021-05-16T23:43:15.558 23    on_process_exit:392: exited: pid=415 status=0 stoptime=0
+INFO  2021-05-16T23:43:15.563 23    on_process_exit:392: exited: pid=447 status=0 stoptime=0
+INFO  2021-05-16T23:43:15.567 23    on_process_exit:392: exited: pid=448 status=0 stoptime=0
+INFO  2021-05-16T23:43:15.567 23    channel_create_event:200: new channel 32 (function health#check[21]..health#provider#check[5]..<SNR>101_check_node[26]..provider#node#Detect:15) : {"id": 32, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:43:15.568 23    channel_create_event:200: new channel 33 (function health#check[21]..health#provider#check[5]..<SNR>101_check_node[26]..provider#node#Detect:31) : {"id": 33, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:43:15.723 23    on_process_exit:392: exited: pid=450 status=0 stoptime=0
+INFO  2021-05-16T23:43:15.754 23    on_process_exit:392: exited: pid=449 status=0 stoptime=0
+INFO  2021-05-16T23:44:43.597 23    os_proc_tree_kill:96: sending SIGTERM to PID -398
+INFO  2021-05-16T23:44:43.605 23    on_process_exit:392: exited: pid=398 status=143 stoptime=34661868194553
+INFO  2021-05-16T23:44:43.605 23    mch_exit:99: Nvim exit: 0
+INFO  2021-05-16T23:56:41.555 12    patch_terminfo_bugs:1608: Disabling smglr with TERM=xterm for non-xterm.
+INFO  2021-05-16T23:56:41.574 12    emsg_multiline:685: E185: Cannot find color scheme 'fairyfloss' (/home/me/.config/nvim/init.vim (line 14))
+INFO  2021-05-16T23:56:41.577 12    emsg_multiline:685: E5105: Error while calling lua chunk: [string "<VimL compiled string>"]:1: module 'lualine' not found:
+	no field package.preload['lualine']
+	no file '/home/me/.config/nvim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/nord-vim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/nord-vim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/gruvbox/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/gruvbox/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/fairyfloss.vim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/fairyfloss.vim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/ayu-vim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/ayu-vim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/palenight.vim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/palenight.vim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/undotree/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/undotree/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/fzf.vim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/fzf.vim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/nerdcommenter/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/nerdcommenter/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/vim-lion/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/vim-lion/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/vim-surround/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/vim-surround/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/vim-devicons/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/vim-devicons/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/nerdtree/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/nerdtree/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/nerdtree-git-plugin/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/nerdtree-git-plugin/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/nerdtree-visual-selection/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/nerdtree-visual-selection/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/vim-nerdtree-syntax-highlight/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/vim-nerdtree-syntax-highlight/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/vim-fugitive/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/vim-fugitive/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/ultisnips/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/ultisnips/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/vim-snippets/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/vim-snippets/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/lualine.nvim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/lualine.nvim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/vim-maximizer/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/vim-maximizer/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/goyo.vim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/goyo.vim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/coc.nvim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/coc.nvim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/coc-snippets/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/coc-snippets/lua/lualine/init.lua'
+	no file '/etc/xdg/nvim/lua/lualine.lua'
+	no file '/etc/xdg/nvim/lua/lualine/init.lua'
+	no file '/home/me/.local/share/nvim/site/lua/lualine.lua'
+	no file '/home/me/.local/share/nvim/site/lua/lualine/init.lua'
+	no file '/usr/local/share/nvim/site/lua/lualine.lua'
+	no file '/usr/local/share/nvim/site/lua/lualine/init.lua'
+	no file '/usr/share/nvim/site/lua/lualine.lua'
+	no file '/usr/share/nvim/site/lua/lualine/init.lua'
+	no file '/usr/share/nvim/runtime/lua/lualine.lua'
+	no file '/usr/share/nvim/runtime/lua/lualine/init.lua'
+	no file '/usr/share/nvim/site/after/lua/lualine.lua'
+	no file '/usr/share/nvim/site/after/lua/lualine/init.lua'
+	no file '/usr/local/share/nvim/site/after/lua/lualine.lua'
+	no file '/usr/local/share/nvim/site/after/lua/lualine/init.lua'
+	no file '/home/me/.local/share/nvim/site/after/lua/lualine.lua'
+	no file '/home/me/.local/share/nvim/site/after/lua/lualine/init.lua'
+	no file '/etc/xdg/nvim/after/lua/lualine.lua'
+	no file '/etc/xdg/nvim/after/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/after/lua/lualine.lua'
+	no file '/home/me/.config/nvim/after/lua/lualine/init.lua'
+	no file './lualine.lua'
+	no file '/usr/share/moonjit-2.2.0/lualine.lua'
+	no file '/usr/local/share/lua/5.1/lualine.lua'
+	no file '/usr/local/share/lua/5.1/lualine/init.lua'
+	no file '/usr/share/lua/5.1/lualine.lua'
+	no file '/usr/share/lua/5.1/lualine/init.lua'
+	no file '/usr/share/lua/common/lualine.lua'
+	no file '/usr/share/lua/common/lualine/init.lua'
+	no file '/home/me/.config/nvim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/nord-vim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/gruvbox/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/fairyfloss.vim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/ayu-vim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/palenight.vim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/undotree/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/fzf.vim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/nerdcommenter/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/vim-lion/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/vim-surround/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/vim-devicons/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/nerdtree/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/nerdtree-git-plugin/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/nerdtree-visual-selection/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/vim-nerdtree-syntax-highlight/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/vim-fugitive/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/ultisnips/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/vim-snippets/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/lualine.nvim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/vim-maximizer/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/goyo.vim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/coc.nvim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/coc-snippets/lua/lualine.so'
+	no file '/etc/xdg/nvim/lua/lualine.so'
+	no file '/home/me/.local/share/nvim/site/lua/lualine.so'
+	no file '/usr/local/share/nvim/site/lua/lualine.so'
+	no file '/usr/share/nvim/site/lua/lualine.so'
+	no file '/usr/share/nvim/runtime/lua/lualine.so'
+	no file '/usr/share/nvim/site/after/lua/lualine.so'
+	no file '/usr/local/share/nvim/site/after/lua/lualine.so'
+	no file '/home/me/.local/share/nvim/site/after/lua/lualine.so'
+	no file '/etc/xdg/nvim/after/lua/lualine.so'
+	no file '/home/me/.config/nvim/after/lua/lualine.so'
+	no file './lualine.so'
+	no file '/usr/local/lib/lua/5.1/lualine.so'
+	no file '/usr/lib/lua/5.1/lualine.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so' (/home/me/.config/nvim/plugin/lualine.vim (line 29))
+INFO  2021-05-16T23:56:46.738 12    main:578: starting main loop
+INFO  2021-05-16T23:56:47.055 12    emsg_multiline:687: E117: Unknown function: CocActionAsync
+INFO  2021-05-16T23:56:52.640 12    on_process_exit:392: exited: pid=14 status=0 stoptime=0
+INFO  2021-05-16T23:56:52.666 12    on_process_exit:392: exited: pid=15 status=0 stoptime=0
+INFO  2021-05-16T23:56:52.674 12    channel_create_event:200: new channel 3 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 3, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:52.677 12    channel_create_event:200: new channel 4 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 4, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:52.679 12    channel_create_event:200: new channel 5 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 5, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:52.683 12    channel_create_event:200: new channel 6 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 6, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:52.688 12    channel_create_event:200: new channel 7 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 7, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:52.693 12    channel_create_event:200: new channel 8 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 8, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:52.698 12    channel_create_event:200: new channel 9 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 9, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:52.704 12    channel_create_event:200: new channel 10 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 10, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:52.710 12    channel_create_event:200: new channel 11 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 11, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:52.716 12    channel_create_event:200: new channel 12 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 12, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:52.726 12    channel_create_event:200: new channel 13 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 13, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:52.741 12    channel_create_event:200: new channel 14 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 14, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:52.751 12    channel_create_event:200: new channel 15 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 15, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:52.761 12    channel_create_event:200: new channel 16 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 16, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:52.769 12    channel_create_event:200: new channel 17 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 17, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:52.780 12    channel_create_event:200: new channel 18 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 18, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:52.862 12    emsg_multiline:687: E117: Unknown function: CocActionAsync
+INFO  2021-05-16T23:56:53.242 12    on_process_exit:392: exited: pid=17 status=0 stoptime=0
+INFO  2021-05-16T23:56:53.246 12    on_process_exit:392: exited: pid=31 status=0 stoptime=0
+INFO  2021-05-16T23:56:53.267 12    on_process_exit:392: exited: pid=16 status=0 stoptime=0
+INFO  2021-05-16T23:56:53.269 12    on_process_exit:392: exited: pid=48 status=0 stoptime=0
+INFO  2021-05-16T23:56:53.271 12    on_process_exit:392: exited: pid=52 status=0 stoptime=0
+INFO  2021-05-16T23:56:53.281 12    channel_create_event:200: new channel 19 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 19, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:53.296 12    on_process_exit:392: exited: pid=44 status=0 stoptime=0
+INFO  2021-05-16T23:56:53.307 12    channel_create_event:200: new channel 20 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 20, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:53.309 12    on_process_exit:392: exited: pid=64 status=0 stoptime=0
+INFO  2021-05-16T23:56:53.328 12    on_process_exit:392: exited: pid=19 status=0 stoptime=0
+INFO  2021-05-16T23:56:53.334 12    on_process_exit:392: exited: pid=35 status=0 stoptime=0
+INFO  2021-05-16T23:56:53.335 12    channel_create_event:200: new channel 21 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 21, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:53.360 12    channel_create_event:200: new channel 22 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 22, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:53.382 12    on_process_exit:392: exited: pid=68 status=0 stoptime=0
+INFO  2021-05-16T23:56:53.384 12    channel_create_event:200: new channel 23 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 23, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:53.418 12    on_process_exit:392: exited: pid=18 status=0 stoptime=0
+INFO  2021-05-16T23:56:53.420 12    channel_create_event:200: new channel 24 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 24, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:53.433 12    on_process_exit:392: exited: pid=56 status=0 stoptime=0
+INFO  2021-05-16T23:56:53.441 12    on_process_exit:392: exited: pid=76 status=0 stoptime=0
+INFO  2021-05-16T23:56:53.446 12    channel_create_event:200: new channel 25 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 25, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:53.459 12    on_process_exit:392: exited: pid=39 status=0 stoptime=0
+INFO  2021-05-16T23:56:53.470 12    channel_create_event:200: new channel 26 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 26, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:53.499 12    channel_create_event:200: new channel 27 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 27, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:56:53.629 12    on_process_exit:392: exited: pid=60 status=0 stoptime=0
+INFO  2021-05-16T23:56:53.884 12    on_process_exit:392: exited: pid=157 status=0 stoptime=0
+INFO  2021-05-16T23:56:53.903 12    on_process_exit:392: exited: pid=129 status=0 stoptime=0
+INFO  2021-05-16T23:56:53.973 12    on_process_exit:392: exited: pid=166 status=0 stoptime=0
+INFO  2021-05-16T23:56:54.050 12    on_process_exit:392: exited: pid=161 status=0 stoptime=0
+INFO  2021-05-16T23:56:54.069 12    on_process_exit:392: exited: pid=194 status=0 stoptime=0
+INFO  2021-05-16T23:56:54.244 12    on_process_exit:392: exited: pid=72 status=0 stoptime=0
+INFO  2021-05-16T23:56:54.350 12    on_process_exit:392: exited: pid=198 status=0 stoptime=0
+INFO  2021-05-16T23:56:54.542 12    on_process_exit:392: exited: pid=190 status=0 stoptime=0
+INFO  2021-05-16T23:56:54.620 12    on_process_exit:392: exited: pid=183 status=0 stoptime=0
+INFO  2021-05-16T23:56:55.801 12    on_process_exit:392: exited: pid=145 status=0 stoptime=0
+INFO  2021-05-16T23:56:55.844 12    on_process_exit:392: exited: pid=271 status=0 stoptime=0
+INFO  2021-05-16T23:56:55.866 12    on_process_exit:392: exited: pid=272 status=0 stoptime=0
+INFO  2021-05-16T23:56:55.889 12    on_process_exit:392: exited: pid=273 status=0 stoptime=0
+INFO  2021-05-16T23:56:55.911 12    on_process_exit:392: exited: pid=274 status=0 stoptime=0
+INFO  2021-05-16T23:56:55.933 12    on_process_exit:392: exited: pid=275 status=0 stoptime=0
+INFO  2021-05-16T23:56:55.956 12    on_process_exit:392: exited: pid=276 status=0 stoptime=0
+INFO  2021-05-16T23:56:55.980 12    on_process_exit:392: exited: pid=277 status=0 stoptime=0
+INFO  2021-05-16T23:56:56.001 12    on_process_exit:392: exited: pid=278 status=0 stoptime=0
+INFO  2021-05-16T23:56:56.023 12    on_process_exit:392: exited: pid=279 status=0 stoptime=0
+INFO  2021-05-16T23:56:56.044 12    on_process_exit:392: exited: pid=280 status=0 stoptime=0
+INFO  2021-05-16T23:56:56.067 12    on_process_exit:392: exited: pid=281 status=0 stoptime=0
+INFO  2021-05-16T23:56:56.090 12    on_process_exit:392: exited: pid=282 status=0 stoptime=0
+INFO  2021-05-16T23:56:56.111 12    on_process_exit:392: exited: pid=283 status=0 stoptime=0
+INFO  2021-05-16T23:56:56.134 12    on_process_exit:392: exited: pid=284 status=0 stoptime=0
+INFO  2021-05-16T23:56:56.156 12    on_process_exit:392: exited: pid=285 status=0 stoptime=0
+INFO  2021-05-16T23:56:56.182 12    on_process_exit:392: exited: pid=286 status=0 stoptime=0
+INFO  2021-05-16T23:56:56.203 12    on_process_exit:392: exited: pid=287 status=0 stoptime=0
+INFO  2021-05-16T23:56:56.225 12    on_process_exit:392: exited: pid=288 status=0 stoptime=0
+INFO  2021-05-16T23:56:56.246 12    on_process_exit:392: exited: pid=289 status=0 stoptime=0
+INFO  2021-05-16T23:56:56.273 12    on_process_exit:392: exited: pid=290 status=0 stoptime=0
+INFO  2021-05-16T23:56:56.305 12    on_process_exit:392: exited: pid=291 status=0 stoptime=0
+INFO  2021-05-16T23:56:56.328 12    on_process_exit:392: exited: pid=320 status=0 stoptime=0
+INFO  2021-05-16T23:56:56.351 12    on_process_exit:392: exited: pid=321 status=0 stoptime=0
+INFO  2021-05-16T23:56:56.388 12    on_process_exit:392: exited: pid=322 status=0 stoptime=0
+INFO  2021-05-16T23:56:56.410 12    on_process_exit:392: exited: pid=323 status=0 stoptime=0
+INFO  2021-05-16T23:56:56.436 12    on_process_exit:392: exited: pid=324 status=0 stoptime=0
+INFO  2021-05-16T23:57:08.136 12    channel_create_event:200: new channel 28 (function coc#rpc#start_server[17]..<SNR>83_start:56) : {"id": 28, "client": {}, "mode": "rpc", "stream": "job"}
+INFO  2021-05-16T23:57:08.586 12    channel_create_event:200: new channel 29 (function provider#python3#Call[9]..remote#host#Require[10]..provider#pythonx#Require[13]..provider#Poll:3) : {"id": 29, "client": {}, "mode": "rpc", "stream": "job"}
+INFO  2021-05-16T23:57:19.759 12    on_process_exit:392: exited: pid=399 status=0 stoptime=0
+INFO  2021-05-16T23:57:19.778 12    on_process_exit:392: exited: pid=400 status=0 stoptime=0
+INFO  2021-05-16T23:57:19.809 12    on_process_exit:392: exited: pid=401 status=0 stoptime=0
+INFO  2021-05-16T23:57:19.813 12    on_process_exit:392: exited: pid=402 status=0 stoptime=0
+INFO  2021-05-16T23:57:19.814 12    channel_create_event:200: new channel 30 (function health#check[21]..health#provider#check[3]..<SNR>99_check_python[149]..<SNR>99_version_info[1]..<SNR>99_latest_pypi_version[2]..<SNR>99_download[3]..<SNR>99_system:11) : {"id": 30, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:57:19.899 12    on_process_exit:392: exited: pid=403 status=0 stoptime=0
+INFO  2021-05-16T23:57:19.900 12    channel_create_event:200: new channel 31 (function health#check[21]..health#provider#check[3]..<SNR>99_check_python[149]..<SNR>99_version_info[2]..<SNR>99_system:11) : {"id": 31, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:57:19.914 12    on_process_exit:392: exited: pid=406 status=0 stoptime=0
+INFO  2021-05-16T23:57:19.914 12    channel_create_event:200: new channel 32 (function health#check[21]..health#provider#check[3]..<SNR>99_check_python[149]..<SNR>99_version_info[12]..<SNR>99_system:11) : {"id": 32, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:57:19.989 12    on_process_exit:392: exited: pid=407 status=0 stoptime=0
+INFO  2021-05-16T23:57:19.990 12    channel_create_event:200: new channel 33 (function health#check[21]..health#provider#check[3]..<SNR>99_check_python[149]..<SNR>99_version_info[30]..<SNR>99_system:11) : {"id": 33, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:57:20.075 12    on_process_exit:392: exited: pid=408 status=0 stoptime=0
+INFO  2021-05-16T23:57:20.077 12    channel_create_event:200: new channel 34 (function health#check[21]..health#provider#check[5]..<SNR>99_check_node[15]..<SNR>99_system:11) : {"id": 34, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:57:20.082 12    on_process_exit:392: exited: pid=409 status=0 stoptime=0
+INFO  2021-05-16T23:57:20.087 12    on_process_exit:392: exited: pid=410 status=0 stoptime=0
+INFO  2021-05-16T23:57:20.088 12    channel_create_event:200: new channel 35 (function provider#node#Detect:15) : {"id": 35, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:57:20.088 12    channel_create_event:200: new channel 36 (function provider#node#Detect:31) : {"id": 36, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:57:20.245 12    on_process_exit:392: exited: pid=412 status=0 stoptime=0
+INFO  2021-05-16T23:57:20.283 12    on_process_exit:392: exited: pid=411 status=0 stoptime=0
+INFO  2021-05-16T23:57:20.288 12    on_process_exit:392: exited: pid=443 status=0 stoptime=0
+INFO  2021-05-16T23:57:20.292 12    on_process_exit:392: exited: pid=444 status=0 stoptime=0
+INFO  2021-05-16T23:57:20.293 12    channel_create_event:200: new channel 37 (function health#check[21]..health#provider#check[5]..<SNR>99_check_node[26]..provider#node#Detect:15) : {"id": 37, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:57:20.294 12    channel_create_event:200: new channel 38 (function health#check[21]..health#provider#check[5]..<SNR>99_check_node[26]..provider#node#Detect:31) : {"id": 38, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:57:20.448 12    on_process_exit:392: exited: pid=446 status=0 stoptime=0
+INFO  2021-05-16T23:57:20.482 12    on_process_exit:392: exited: pid=445 status=0 stoptime=0
+INFO  2021-05-16T23:57:20.483 12    channel_create_event:200: new channel 39 (function health#check[21]..health#provider#check[5]..<SNR>99_check_node[39]..<SNR>99_system:11) : {"id": 39, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:57:22.065 12    on_process_exit:392: exited: pid=477 status=0 stoptime=0
+INFO  2021-05-16T23:57:22.066 12    channel_create_event:200: new channel 40 (function health#check[21]..health#provider#check[5]..<SNR>99_check_node[56]..<SNR>99_system:11) : {"id": 40, "mode": "bytes", "stream": "job"}
+INFO  2021-05-16T23:57:22.199 12    on_process_exit:392: exited: pid=488 status=0 stoptime=0
+INFO  2021-05-16T23:58:05.421 12    os_proc_tree_kill:96: sending SIGTERM to PID -387
+INFO  2021-05-16T23:58:05.421 12    os_proc_tree_kill:96: sending SIGTERM to PID -398
+INFO  2021-05-16T23:58:05.429 12    on_process_exit:392: exited: pid=387 status=143 stoptime=35463691717939
+INFO  2021-05-16T23:58:05.432 12    on_process_exit:392: exited: pid=398 status=0 stoptime=35463691860670
+INFO  2021-05-16T23:58:05.432 12    mch_exit:99: Nvim exit: 0
+INFO  2021-05-17T00:04:28.653 11    patch_terminfo_bugs:1608: Disabling smglr with TERM=xterm for non-xterm.
+INFO  2021-05-17T00:04:28.673 11    emsg_multiline:685: E185: Cannot find color scheme 'fairyfloss' (/home/me/.config/nvim/init.vim (line 14))
+INFO  2021-05-17T00:04:28.676 11    emsg_multiline:685: E5105: Error while calling lua chunk: [string "<VimL compiled string>"]:1: module 'lualine' not found:
+	no field package.preload['lualine']
+	no file '/home/me/.config/nvim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/nord-vim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/nord-vim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/gruvbox/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/gruvbox/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/fairyfloss.vim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/fairyfloss.vim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/ayu-vim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/ayu-vim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/palenight.vim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/palenight.vim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/undotree/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/undotree/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/fzf.vim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/fzf.vim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/nerdcommenter/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/nerdcommenter/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/vim-lion/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/vim-lion/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/vim-surround/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/vim-surround/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/vim-devicons/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/vim-devicons/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/nerdtree/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/nerdtree/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/nerdtree-git-plugin/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/nerdtree-git-plugin/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/nerdtree-visual-selection/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/nerdtree-visual-selection/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/vim-nerdtree-syntax-highlight/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/vim-nerdtree-syntax-highlight/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/vim-fugitive/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/vim-fugitive/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/ultisnips/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/ultisnips/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/vim-snippets/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/vim-snippets/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/lualine.nvim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/lualine.nvim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/vim-maximizer/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/vim-maximizer/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/goyo.vim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/goyo.vim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/coc.nvim/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/coc.nvim/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/plugged/coc-snippets/lua/lualine.lua'
+	no file '/home/me/.config/nvim/plugged/coc-snippets/lua/lualine/init.lua'
+	no file '/etc/xdg/nvim/lua/lualine.lua'
+	no file '/etc/xdg/nvim/lua/lualine/init.lua'
+	no file '/home/me/.local/share/nvim/site/lua/lualine.lua'
+	no file '/home/me/.local/share/nvim/site/lua/lualine/init.lua'
+	no file '/usr/local/share/nvim/site/lua/lualine.lua'
+	no file '/usr/local/share/nvim/site/lua/lualine/init.lua'
+	no file '/usr/share/nvim/site/lua/lualine.lua'
+	no file '/usr/share/nvim/site/lua/lualine/init.lua'
+	no file '/usr/share/nvim/runtime/lua/lualine.lua'
+	no file '/usr/share/nvim/runtime/lua/lualine/init.lua'
+	no file '/usr/share/nvim/site/after/lua/lualine.lua'
+	no file '/usr/share/nvim/site/after/lua/lualine/init.lua'
+	no file '/usr/local/share/nvim/site/after/lua/lualine.lua'
+	no file '/usr/local/share/nvim/site/after/lua/lualine/init.lua'
+	no file '/home/me/.local/share/nvim/site/after/lua/lualine.lua'
+	no file '/home/me/.local/share/nvim/site/after/lua/lualine/init.lua'
+	no file '/etc/xdg/nvim/after/lua/lualine.lua'
+	no file '/etc/xdg/nvim/after/lua/lualine/init.lua'
+	no file '/home/me/.config/nvim/after/lua/lualine.lua'
+	no file '/home/me/.config/nvim/after/lua/lualine/init.lua'
+	no file './lualine.lua'
+	no file '/usr/share/moonjit-2.2.0/lualine.lua'
+	no file '/usr/local/share/lua/5.1/lualine.lua'
+	no file '/usr/local/share/lua/5.1/lualine/init.lua'
+	no file '/usr/share/lua/5.1/lualine.lua'
+	no file '/usr/share/lua/5.1/lualine/init.lua'
+	no file '/usr/share/lua/common/lualine.lua'
+	no file '/usr/share/lua/common/lualine/init.lua'
+	no file '/home/me/.config/nvim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/nord-vim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/gruvbox/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/fairyfloss.vim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/ayu-vim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/palenight.vim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/undotree/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/fzf.vim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/nerdcommenter/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/vim-lion/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/vim-surround/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/vim-devicons/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/nerdtree/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/nerdtree-git-plugin/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/nerdtree-visual-selection/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/vim-nerdtree-syntax-highlight/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/vim-fugitive/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/ultisnips/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/vim-snippets/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/lualine.nvim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/vim-maximizer/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/goyo.vim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/coc.nvim/lua/lualine.so'
+	no file '/home/me/.config/nvim/plugged/coc-snippets/lua/lualine.so'
+	no file '/etc/xdg/nvim/lua/lualine.so'
+	no file '/home/me/.local/share/nvim/site/lua/lualine.so'
+	no file '/usr/local/share/nvim/site/lua/lualine.so'
+	no file '/usr/share/nvim/site/lua/lualine.so'
+	no file '/usr/share/nvim/runtime/lua/lualine.so'
+	no file '/usr/share/nvim/site/after/lua/lualine.so'
+	no file '/usr/local/share/nvim/site/after/lua/lualine.so'
+	no file '/home/me/.local/share/nvim/site/after/lua/lualine.so'
+	no file '/etc/xdg/nvim/after/lua/lualine.so'
+	no file '/home/me/.config/nvim/after/lua/lualine.so'
+	no file './lualine.so'
+	no file '/usr/local/lib/lua/5.1/lualine.so'
+	no file '/usr/lib/lua/5.1/lualine.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so' (/home/me/.config/nvim/plugin/lualine.vim (line 29))
+INFO  2021-05-17T00:04:33.126 11    main:578: starting main loop
+INFO  2021-05-17T00:04:33.446 11    emsg_multiline:687: E117: Unknown function: CocActionAsync
+INFO  2021-05-17T00:04:39.872 11    on_process_exit:392: exited: pid=13 status=0 stoptime=0
+INFO  2021-05-17T00:04:39.897 11    on_process_exit:392: exited: pid=14 status=0 stoptime=0
+INFO  2021-05-17T00:04:39.904 11    channel_create_event:200: new channel 3 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 3, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:39.907 11    channel_create_event:200: new channel 4 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 4, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:39.909 11    channel_create_event:200: new channel 5 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 5, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:39.913 11    channel_create_event:200: new channel 6 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 6, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:39.918 11    channel_create_event:200: new channel 7 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 7, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:39.923 11    channel_create_event:200: new channel 8 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 8, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:39.928 11    channel_create_event:200: new channel 9 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 9, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:39.933 11    channel_create_event:200: new channel 10 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 10, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:39.938 11    channel_create_event:200: new channel 11 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 11, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:39.945 11    channel_create_event:200: new channel 12 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 12, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:39.951 11    channel_create_event:200: new channel 13 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 13, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:39.967 11    channel_create_event:200: new channel 14 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 14, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:39.975 11    channel_create_event:200: new channel 15 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 15, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:39.983 11    channel_create_event:200: new channel 16 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 16, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:39.991 11    channel_create_event:200: new channel 17 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 17, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:40.000 11    channel_create_event:200: new channel 18 (function <SNR>5_install[1]..<SNR>5_update_impl[113]..<SNR>5_update_vim[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 18, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:40.079 11    emsg_multiline:687: E117: Unknown function: CocActionAsync
+INFO  2021-05-17T00:04:40.480 11    on_process_exit:392: exited: pid=16 status=0 stoptime=0
+INFO  2021-05-17T00:04:40.483 11    on_process_exit:392: exited: pid=51 status=0 stoptime=0
+INFO  2021-05-17T00:04:40.489 11    on_process_exit:392: exited: pid=31 status=0 stoptime=0
+INFO  2021-05-17T00:04:40.491 11    on_process_exit:392: exited: pid=47 status=0 stoptime=0
+INFO  2021-05-17T00:04:40.509 11    on_process_exit:392: exited: pid=15 status=0 stoptime=0
+INFO  2021-05-17T00:04:40.516 11    on_process_exit:392: exited: pid=43 status=0 stoptime=0
+INFO  2021-05-17T00:04:40.533 11    channel_create_event:200: new channel 19 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 19, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:40.550 11    on_process_exit:392: exited: pid=63 status=0 stoptime=0
+INFO  2021-05-17T00:04:40.560 11    channel_create_event:200: new channel 20 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 20, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:40.565 11    on_process_exit:392: exited: pid=18 status=0 stoptime=0
+INFO  2021-05-17T00:04:40.586 11    channel_create_event:200: new channel 21 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 21, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:40.609 11    channel_create_event:200: new channel 22 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 22, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:40.623 11    on_process_exit:392: exited: pid=17 status=0 stoptime=0
+INFO  2021-05-17T00:04:40.637 11    on_process_exit:392: exited: pid=55 status=0 stoptime=0
+INFO  2021-05-17T00:04:40.640 11    channel_create_event:200: new channel 23 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 23, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:40.642 11    on_process_exit:392: exited: pid=67 status=0 stoptime=0
+INFO  2021-05-17T00:04:40.646 11    on_process_exit:392: exited: pid=75 status=0 stoptime=0
+INFO  2021-05-17T00:04:40.669 11    channel_create_event:200: new channel 24 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 24, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:40.685 11    on_process_exit:392: exited: pid=38 status=0 stoptime=0
+INFO  2021-05-17T00:04:40.698 11    channel_create_event:200: new channel 25 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 25, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:40.701 11    on_process_exit:392: exited: pid=34 status=0 stoptime=0
+INFO  2021-05-17T00:04:40.722 11    channel_create_event:200: new channel 26 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 26, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:40.725 11    on_process_exit:392: exited: pid=59 status=0 stoptime=0
+INFO  2021-05-17T00:04:40.749 11    channel_create_event:200: new channel 27 (function <SNR>5_nvim_cb[1]..<SNR>5_job_cb[4]..<SNR>5_job_exit_cb[4]..<SNR>5_tick[46]..<SNR>5_spawn[15]..<SNR>5_plug_call:1) : {"id": 27, "mode": "bytes", "stream": "job"}
+INFO  2021-05-17T00:04:41.137 11    on_process_exit:392: exited: pid=151 status=0 stoptime=0
+INFO  2021-05-17T00:04:41.151 11    on_process_exit:392: exited: pid=137 status=0 stoptime=0
+INFO  2021-05-17T00:04:41.242 11    on_process_exit:392: exited: pid=174 status=0 stoptime=0
+INFO  2021-05-17T00:04:41.314 11    on_process_exit:392: exited: pid=159 status=0 stoptime=0
+INFO  2021-05-17T00:04:41.338 11    on_process_exit:392: exited: pid=198 status=0 stoptime=0
+INFO  2021-05-17T00:04:41.589 11    on_process_exit:392: exited: pid=180 status=0 stoptime=0
+INFO  2021-05-17T00:04:41.800 11    on_process_exit:392: exited: pid=193 status=0 stoptime=0
+INFO  2021-05-17T00:04:42.191 11    on_process_exit:392: exited: pid=202 status=0 stoptime=0
+INFO  2021-05-17T00:04:42.207 11    on_process_exit:392: exited: pid=71 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.027 11    on_process_exit:392: exited: pid=146 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.070 11    on_process_exit:392: exited: pid=270 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.092 11    on_process_exit:392: exited: pid=271 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.114 11    on_process_exit:392: exited: pid=272 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.136 11    on_process_exit:392: exited: pid=273 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.158 11    on_process_exit:392: exited: pid=274 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.182 11    on_process_exit:392: exited: pid=275 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.206 11    on_process_exit:392: exited: pid=276 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.228 11    on_process_exit:392: exited: pid=277 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.249 11    on_process_exit:392: exited: pid=278 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.271 11    on_process_exit:392: exited: pid=279 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.293 11    on_process_exit:392: exited: pid=280 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.316 11    on_process_exit:392: exited: pid=281 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.337 11    on_process_exit:392: exited: pid=282 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.360 11    on_process_exit:392: exited: pid=283 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.382 11    on_process_exit:392: exited: pid=284 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.408 11    on_process_exit:392: exited: pid=285 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.429 11    on_process_exit:392: exited: pid=286 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.451 11    on_process_exit:392: exited: pid=287 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.472 11    on_process_exit:392: exited: pid=288 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.498 11    on_process_exit:392: exited: pid=289 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.530 11    on_process_exit:392: exited: pid=290 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.553 11    on_process_exit:392: exited: pid=319 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.576 11    on_process_exit:392: exited: pid=320 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.613 11    on_process_exit:392: exited: pid=321 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.635 11    on_process_exit:392: exited: pid=322 status=0 stoptime=0
+INFO  2021-05-17T00:04:43.661 11    on_process_exit:392: exited: pid=323 status=0 stoptime=0
+INFO  2021-05-17T00:04:55.029 11    channel_create_event:200: new channel 28 (function coc#rpc#start_server[17]..<SNR>83_start:56) : {"id": 28, "client": {}, "mode": "rpc", "stream": "job"}
+INFO  2021-05-17T00:04:55.493 11    channel_create_event:200: new channel 29 (function provider#python3#Call[9]..remote#host#Require[10]..provider#pythonx#Require[13]..provider#Poll:3) : {"id": 29, "client": {}, "mode": "rpc", "stream": "job"}
+INFO  2021-05-17T00:05:03.673 11    os_proc_tree_kill:96: sending SIGTERM to PID -386
+INFO  2021-05-17T00:05:03.673 11    os_proc_tree_kill:96: sending SIGTERM to PID -397
+INFO  2021-05-17T00:05:03.680 11    on_process_exit:392: exited: pid=386 status=143 stoptime=35881944629066
+INFO  2021-05-17T00:05:03.683 11    on_process_exit:392: exited: pid=397 status=0 stoptime=35881944665488
+INFO  2021-05-17T00:05:03.684 11    mch_exit:99: Nvim exit: 0
