@@ -93,8 +93,8 @@ RUN git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.
 # Install TMUX
 ENV TMUX_PLUGIN_MANAGER_PATH ${HOME}/.tmux/plugins
 COPY tmux ${HOME}/.tmux.conf
-COPY defaulttmuxsession.yaml ${HOME}/defaulttmuxsession.yaml
-RUN pip3 install --user tmuxp
+# COPY defaulttmuxsession.yaml ${HOME}/defaulttmuxsession.yaml
+# RUN pip3 install --user tmuxp
 RUN git clone https://github.com/tmux-plugins/tpm ${HOME}/.tmux/plugins/tpm && \
     ${HOME}/.tmux/plugins/tpm/bin/install_plugins
 
