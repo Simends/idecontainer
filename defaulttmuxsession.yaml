@@ -1,0 +1,9 @@
+session_name: default tmux session
+windows:
+  - window_name: main
+    layout: tiled
+    shell_command_before:
+      - cd /${PROJECT_NAME} # run as a first command in all panes
+    panes:
+      - shell_command: # pane no. 1
+          - echo "\nIn project $PROJECT_NAME on $(date +'%A %d/%m/%Y at %R')\n" && git status && echo "" && exa -lRTbh --icons --git --git-ignore && echo "" && zsh

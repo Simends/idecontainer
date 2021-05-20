@@ -5,10 +5,10 @@
 call plug#begin()
 
 " Colorschemes
-Plug 'arcticicestudio/nord-vim'
+" Plug 'arcticicestudio/nord-vim'
 Plug 'morhetz/gruvbox'
 Plug 'tssm/fairyfloss.vim'
-Plug 'ayu-theme/ayu-vim'
+" Plug 'ayu-theme/ayu-vim'
 Plug 'drewtempelmeyer/palenight.vim'
 
 " Emacs-style undotree
@@ -52,7 +52,8 @@ Plug 'honza/vim-snippets'
 Plug 'majutsushi/tagbar', { 'on': ['TagbarOpen', 'TagbarToggle'] }
 
 " Better statusline
-Plug 'hoob3rt/lualine.nvim'
+" Plug 'hoob3rt/lualine.nvim'
+Plug 'itchyny/lightline.vim'
 
 " Maximize window
 Plug 'szw/vim-maximizer'

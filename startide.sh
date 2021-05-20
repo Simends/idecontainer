@@ -14,8 +14,8 @@ function ide() {
         -e HOST_USER_ID=$(id -u $USER) \
         -e HOST_GROUP_ID=$(id -g $USER) \
         -e PROJECT_NAME=$PROJECT_DIR \
-        -e GIT_USER_NAME="Me McMe" \
-        -e GIT_USER_EMAIL="me@me.com" \
+        -e GIT_USER_NAME="Simen Dager Sneve" \
+        -e GIT_USER_EMAIL="smndagersneve@gmail.com" \
         -v ~/.ssh:/home/me/.ssh \
         --name $CONTAINER_NAME \
         --net host \

@@ -15,11 +15,17 @@ nnoremap <leader>2p <cmd>2bp<cr>
 nnoremap <leader>3p <cmd>3bp<cr>
 nnoremap <leader>4p <cmd>4bp<cr>
 nnoremap <leader>5p <cmd>5bp<cr>
-nnoremap <leader>w <C-w>
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
-nnoremap <C-h> <C-w>h
+nmap f <Plug>Sneak_s
+nmap F <Plug>Sneak_S
+nmap ' <Plug>Sneak_;
+xmap f <Plug>Sneak_s
+xmap F <Plug>Sneak_S
+xmap ' <Plug>Sneak_;
+" nnoremap <leader>w <C-w>
+" nnoremap <C-j> <C-w>j
+" nnoremap <C-k> <C-w>k
+" nnoremap <C-l> <C-w>l
+" nnoremap <C-h> <C-w>h
 nnoremap <leader>m :MaximizerToggle!<CR>
 nnoremap Q !!sh<cr>
 
@@ -64,7 +70,7 @@ nnoremap <leader>hpi <cmd>PlugInstall<cr>
 nnoremap <leader>hpc <cmd>PlugClean<cr>
 nnoremap <leader>hpu <cmd>PlugUpdate<cr>
 nnoremap <leader>hdh <cmd>help<cr>
-nnoremap <leader>hdt <cmd>Colors<cr>
+nnoremap <leader>hdt :lua require('telescope.builtin').colorscheme()<cr>
 nnoremap <leader>hdk :lua require('telescope.builtin').keymaps()<cr>
 nnoremap <leader>hc <cmd>edit ~/.config/nvim/init.vim<cr>
 nnoremap <leader>hck <cmd>edit ~/.config/nvim/settings/keymap.vim<cr>

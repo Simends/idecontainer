@@ -91,17 +91,22 @@ RUN git clone https://github.com/zdharma/fast-syntax-highlighting.git ${ZSH_CUST
 RUN git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 # Install TMUX
+ENV TMUX_PLUGIN_MANAGER_PATH ${HOME}/.tmux/plugins
 COPY tmux ${HOME}/.tmux.conf
-# RUN git clone https://github.com/tmux-plugins/tpm ${HOME}/.tmux/plugins/tpm && \
-    # ${HOME}/.tmux/plugins/tpm/bin/install_plugins
+COPY defaulttmuxsession.yaml ${HOME}/defaulttmuxsession.yaml
+RUN pip3 install --user tmuxp
+RUN git clone https://github.com/tmux-plugins/tpm ${HOME}/.tmux/plugins/tpm && \
+    ${HOME}/.tmux/plugins/tpm/bin/install_plugins
 
 # Code minimap
 RUN wget https://github.com/wfxr/code-minimap/releases/download/v0.6.0/code-minimap-v0.6.0-x86_64-unknown-linux-musl.tar.gz
 RUN tar -zxvf code-minimap-*.tar.gz
 RUN mv code-minimap-*/code-minimap /usr/bin/
+RUN rm -rf code-minimap-*
 
 # Copy git config over
 COPY gitconfig ${HOME}/.gitconfig
+COPY profile ${HOME}/.profile
 
 # Entrypoint script creates a user called `me` and `chown`s everything
 COPY entrypoint.sh /bin/entrypoint.sh
@@ -115,4 +120,6 @@ RUN chmod -R +x /usr/local/bin
 # WORKDIR /workspace
 
 # Default entrypoint, can be overridden
+ENV LANG en_US.UTF-8
+ENV LC_COLLATE C
 CMD ["/bin/entrypoint.sh"]
