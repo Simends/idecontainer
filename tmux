@@ -143,7 +143,7 @@ set -g @pomodoro_complete " #[fg=$text_green] "
 
 
 set -g status-left "#{prefix_highlight} #[fg=$text_emphasise,bold] ~#S~"
-set -g status-right "#{pomodoro_status}#[fg=$text_normal]#{online_status}#[fg=$text_normal] |  %R   %d/%m/%Y "
+set -g status-right "#{pomodoro_status}#[fg=$text_normal] #{online_status}#[fg=$text_normal] |  %R   %d/%m/%Y "
 setw -g window-status-format "#[fg=$text_normal,nobold,nounderscore,noitalics] #[fg=$text_normal] #I #W #[fg=$text_normal,nobold,nounderscore,noitalics]"
 setw -g window-status-current-format "#[fg=$text_normal,nobold,nounderscore,noitalics] #[fg=$text_highlight] #I #W #[fg=$text_normal,nobold,nounderscore,noitalics]"
 
