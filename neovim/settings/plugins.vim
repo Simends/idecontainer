@@ -37,6 +37,7 @@ Plug 'preservim/nerdtree'|
 
 " Git in vim
 Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
 
 " Minimap
 Plug 'wfxr/minimap.vim', { 'on': ['Minimap', 'MinimapToggle'] }
