@@ -34,10 +34,6 @@ chown -R me: /home/me
 
 export PROJECT_NAME=${PROJECT_NAME:-"Standalone"}
 # exec /sbin/su-exec me tmux -u -2 "$@"
-exec /sbin/su-exec me tmux -u -2 "$@" -c "tmux new-session -s $PROJECT_NAME -c /$PROJECT_NAME zsh"
-# exec /sbin/su-exec me tmux -u -2 "git status && exa -lRThb --icons --git --git-ignore && zsh"
-
-# exec /sbin/su-exec me ${HOME}/.local/bin/tmuxp load -2 -s "$PROJECT_NAME" ${HOME}/defaulttmuxsession.yaml
-
-# "git status && echo '' && exa -lRThb --icons --git --git-ignore && echo '' && zsh"
 # exec /sbin/su-exec me zsh
+exec /sbin/su-exec me tmux -u -2 "$@" -c "tmux new-session -s $PROJECT_NAME -c /$PROJECT_NAME zsh"
+# exec /sbin/su-exec me ${HOME}/.local/bin/tmuxp load -2 -s "$PROJECT_NAME" ${HOME}/defaulttmuxsession.yaml
