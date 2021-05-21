@@ -2,10 +2,10 @@ DESTPREFIX=${HOME}/.local/bin
 SRC=startide.sh
 
 install:
-	cp ${SRC} ${DESTPREFIX}/startide
-	chmod 755 ${DESTPREFIX}/startide
+	cp ${SRC} ${DESTPREFIX}/ide
+	chmod 755 ${DESTPREFIX}/ide
 	docker build -t idecontainer .
 
 uninstall:
-	rm -f ${DESTPREFIX}/startide
+	rm -f ${DESTPREFIX}/ide
 	docker rmi idecontainer

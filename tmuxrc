@@ -15,10 +15,13 @@ set-option -g prefix C-a
 bind-key C-a send-prefix
 unbind p
 unbind n
+unbind d
 
 bind r source-file ~/.tmux.conf
 bind -n C-p previous-window
 bind -n C-n next-window
+
+bind -r d neww -c "#{pane_current_path}" "[[ -e TODO.md ]] && nvim TODO.md || exit"
 
 # Smart pane switching with awareness of Vim splits.
 # See: https://github.com/christoomey/vim-tmux-navigator

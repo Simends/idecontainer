@@ -114,10 +114,10 @@ xmap f <Plug>Sneak_s
 xmap F <Plug>Sneak_S
 xmap ' <Plug>Sneak_;
 " nnoremap <leader>w <C-w>
-" nnoremap <C-j> <C-w>j
-" nnoremap <C-k> <C-w>k
-" nnoremap <C-l> <C-w>l
-" nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+nnoremap <C-h> <C-w>h
 nnoremap <leader>m :MaximizerToggle!<CR>
 nnoremap Q !!sh<cr>
 
@@ -152,7 +152,7 @@ nmap <leader>vs <Plug>SlimeSendCell
 
 " Git commands [g]
 nnoremap <leader>gs <cmd>Git status<cr>
-nnoremap <leader>ga <cmd>Git add .<cr>
+nnoremap <leader>ga <cmd>Git add :<cr>
 nnoremap <leader>gc <cmd>Git commit<cr>
 nnoremap <leader>gl <cmd>Git log<cr>
 nnoremap <leader>gp <cmd>Git push<cr>
@@ -189,7 +189,7 @@ nmap <leader>dbp <Plug>VimspectorToggleBreakpoint
 nmap <leader>dcbp <Plug>VimspectorToggleConditionalBreakpoint
 
 " Coc [e]
-nnoremap <silent><nowait> <leader>ea  :<C-u>CocList diagnostics<cr>             " Show all diagnostics.
+nnoremap <silent><nowait> <leader>ed  :<C-u>CocList diagnostics<cr>             " Show all diagnostics.
 nnoremap <silent><nowait> <leader>ee  :<C-u>CocList extensions<cr>              " Manage extensions.
 nnoremap <silent><nowait> <leader>ec  :<C-u>CocList commands<cr>                " Show commands.
 nnoremap <silent><nowait> <leader>eo  :<C-u>CocList outline<cr>                 " Find symbol of current document.

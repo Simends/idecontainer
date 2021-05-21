@@ -1,28 +1,33 @@
 #!/bin/sh
 
+usage="config to configure dotfiles, config commit [message] to upload to github"
 conf() {
     pth=$PWD
     cd /home/me
     nvim .zshrc
-    cp $pth
+    cd $pth
 }
 
 commit() {
-    mkdir /config
-    # git clone 
-    cp .zshrc zshrc
-    cp .tmux.conf tmux
-    cp init.vim /base/
-    cp coc-settings.json /base/
-    cp /settings/* /settings/
-    cp /plugins/* /plugins/
-    cp /lua/* /lua/
-    git commit -am "$1"
+    gitpth="/home/me/gitrepo"
+    pth=$PWD
+    git clone url $gitpth
+    cd $gitpth
+    cp -f ~/.zshrc zshrc
+    cp -f ~/.tmux.conf tmux
+    cp -f ~/.profile profile
+    cp -f ~/.config/nvim/init.vim vimrc
+    cp -f ~/.config/nvim/coc-settings.json coc-settings.json
+    cp -f ~/.config/nvim/plugins/* neovim/plugins/
+    cp -f ~/.config/nvim/lua/* neovim/lua/
+    cp -f ~/README.md README.md
+    git add :
+    git commit -m "$1"
     git push
 }
 
 case "$1" in
     "") conf ;;
     "commit") commit "$2" ;;
-    *) echo "Wrong usage" ;;
+    *) echo "$usage" ;;
 esac

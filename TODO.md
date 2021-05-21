@@ -4,13 +4,15 @@
 
 ## TODOS
 
-- [ ] Fix the config script
-- [ ] Add an easy way to read todos
 - [ ] More statusline plugins in tmux
-- [ ] Upgrade the startide script with fzf
+- [ ] Write readme
 
 ## In progress
 
+- [ ] Fix the config script
 - [ ] Fix split navigation in tmux and vim
 
 ## Done
+
+- [x] Add an easy way to read todos
+- [x] Upgrade the startide script with fzf

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+usage="-v print version and exit, -p PATH start ide at path, -f pick the path from the projects folder with fzf"
+
 function ide() {
     PROJECT_DIR=${PWD##*/}
     # PROJECT_NAME=${PWD#"${PWD%/*/*}/"}
@@ -22,8 +24,21 @@ function ide() {
         idecontainer:latest
 }
 
+function changepth() {
+    origpth="${PWD}"
+    newpth="$1"
+    cd $newpth && ide && cd $origpth
+}
+
+function fzpth() {
+    pth=$(ls ${HOME}/Documents/Projects | fzf | sed 's+^+/home/simen/Documents/Projects/+')
+    changepth "$pth"
+}
+
 case "$1" in
     "-v") echo "0.0.1" ;;
-    "-p") cd "$2" && ide ;;
-    *) ide ;;
+    "-p") changepth "$2" ;;
+    "-f") fzpth ;;
+    "") ide ;;
+    *) echo "$usage" ;;
 esac
