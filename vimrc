@@ -35,10 +35,10 @@ Plug 'justinmk/vim-sneak'
 Plug 'ryanoasis/vim-devicons'
 
 " Quick overview of project
-Plug 'preservim/nerdtree'|
-            \ Plug 'Xuyuanp/nerdtree-git-plugin'|
-            \ Plug 'PhilRunninger/nerdtree-visual-selection'|
-            \ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+" Plug 'preservim/nerdtree'|
+            " \ Plug 'Xuyuanp/nerdtree-git-plugin'|
+            " \ Plug 'PhilRunninger/nerdtree-visual-selection'|
+            " \ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 " Git in vim
 Plug 'tpope/vim-fugitive'
@@ -63,6 +63,9 @@ Plug 'majutsushi/tagbar', { 'on': ['TagbarOpen', 'TagbarToggle'] }
 " Better statusline
 " Plug 'hoob3rt/lualine.nvim'
 Plug 'itchyny/lightline.vim'
+
+" Colorful parantheses
+Plug 'junegunn/rainbow_parentheses.vim'
 
 " Maximize window
 Plug 'szw/vim-maximizer'
@@ -132,7 +135,7 @@ vnoremap J :m '>+1<CR>gv=gv         " Move selection with shift and movement key
 
 " Toggle stuff [t]
 nnoremap <leader>tu <cmd>UndotreeToggle<cr>
-nnoremap <leader>tp <cmd>NERDTreeToggle<cr>
+nnoremap <leader>te <cmd>CocCommand explorer<cr>
 nnoremap <leader>tt <cmd>vnew term://zsh<cr>
 nnoremap <leader>tm <cmd>MinimapToggle<cr>
 nnoremap <leader>tc <cmd>TagbarToggle<cr>

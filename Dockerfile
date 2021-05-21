@@ -1,6 +1,23 @@
 FROM alpine:latest
 
-ARG COCEXT='coc-sh coc-vimlsp coc-tsserver coc-snippets coc-docker coc-diagnostic coc-clangd coc-css coc-html coc-highlight coc-prettier coc-markdownlint coc-json coc-yaml'
+ARG COCEXT='coc-sh \
+    coc-vimlsp \
+    coc-tsserver \
+    coc-snippets \
+    coc-docker \
+    coc-marketplace \
+    coc-explorer \
+    coc-emoji \
+    coc-diagnostic \
+    coc-clangd \
+    coc-css \
+    coc-html \
+    coc-highlight \
+    coc-prettier \
+    coc-markdownlint \
+    coc-json \
+    coc-yaml'
+
 ARG VSPECGADGETS='--enable-c --enable-python --force-enable-node --enable-bash'
 
 RUN apk update && apk add -U --no-cache \
