@@ -54,6 +54,9 @@ Plug 'puremourning/vimspector', { 'on': ['<Plug>vimspector#Launch()', 'Vimspecto
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
+" Emmet in vim
+Plug 'mattn/emmet-vim'
+
 " Tag list
 Plug 'majutsushi/tagbar', { 'on': ['TagbarOpen', 'TagbarToggle'] }
 

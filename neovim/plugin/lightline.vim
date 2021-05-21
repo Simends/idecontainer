@@ -1,5 +1,3 @@
-" lua require("evil-lualine")
-
 function! CocCurrentFunction()
     return get(b:, 'coc_current_function', '')
 endfunction
