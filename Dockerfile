@@ -12,7 +12,6 @@ RUN apk update && apk add -U --no-cache \
     unzip \
     git \
     zsh \
-    # coreutils \
     gettext-tiny-dev \
     openssh-client \
     libtool \
@@ -27,7 +26,6 @@ RUN apk update && apk add -U --no-cache \
     bash \
     ncurses \
     less \
-    man-db \
     docker \
     python3-dev \
     ipython \
@@ -41,7 +39,7 @@ RUN apk update && apk add -U --no-cache \
     npm \
     ctags \
     clang-extra-tools \
-    shellcheck \
+    # shellcheck \
     fd \
     bat
 
