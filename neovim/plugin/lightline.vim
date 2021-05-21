@@ -6,10 +6,11 @@ let g:lightline = {
       \ 'colorscheme': 'palenight',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'cocstatus', 'currentfunction', 'readonly', 'filename', 'modified' ] ]
+      \             [ 'cocstatus', 'currentfunction', 'gitbranch', 'readonly', 'filename', 'modified' ] ]
       \ },
       \ 'component_function': {
       \   'cocstatus': 'coc#status',
+      \   'gitbranch': 'FugitiveHead',
       \   'currentfunction': 'CocCurrentFunction'
       \ },
       \ }
