@@ -5,7 +5,6 @@
 ## TODOS
 
 - [ ] More statusline plugins in tmux
-- [ ] Write readme
 
 ## In progress
 
@@ -14,5 +13,6 @@
 
 ## Done
 
+- [x] Write readme
 - [x] Add an easy way to read todos
 - [x] Upgrade the startide script with fzf
