@@ -5,6 +5,7 @@
 - [ ] Fix the config script
 - [ ] Add an easy way to read todos
 - [ ] More statusline plugins in tmux
+- [ ] Upgrade the startide script with fzf
 
 ## In progress
 
