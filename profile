@@ -26,3 +26,4 @@ alias la='echo " " && exa --long --recurse --tree --icons --binary --header --gi
 alias e='nvim'
 alias vim='nvim'
 alias stat='echo "\nWelcome to $PROJECT_NAME\n" && git status && la'
+alias help='bat ${HOME}/README.md'

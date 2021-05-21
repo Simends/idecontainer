@@ -106,6 +106,7 @@ RUN git clone https://github.com/tmux-plugins/tpm ${HOME}/.tmux/plugins/tpm && \
 # Copy git config over
 COPY gitconfig ${HOME}/.gitconfig
 COPY profile ${HOME}/.profile
+COPY README.md ${HOME}/README.md
 
 # Entrypoint script creates a user called `me` and `chown`s everything
 COPY entrypoint.sh /bin/entrypoint.sh
