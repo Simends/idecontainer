@@ -99,7 +99,7 @@ text_highlight=$color_green
 text_emphasise=$color_purple
 text_red=$color_red
 text_green=$color_green
-text_yellow=$color_yellow
+ext_yellow=$color_yellow
 
 set -g status-interval 5
 set -g status-justify "left"

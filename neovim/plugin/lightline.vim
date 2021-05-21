@@ -27,8 +27,6 @@ function! StatusDiagnostic() abort
   return join(msgs, ' ')
 endfunction
 
-" let g:lightline.separator = { 'left': '', 'right': '' }
-" let g:lightline.subseparator = { 'left': '', 'right': '' }
 let g:lightline = {
       \ 'colorscheme': 'palenight',
       \ 'active': {
@@ -38,9 +36,6 @@ let g:lightline = {
       \ 'component_function': {
       \   'cocstatus': 'StatusDiagnostic',
       \   'gitbranch': 'LightlineFugitive',
-      \ },
-      \ 'component': { 
-      \   'giticon': '',
       \ },
 	  \ 'separator': { 'left': '', 'right': '' },
 	  \ 'subseparator': { 'left': '|', 'right': '|' },

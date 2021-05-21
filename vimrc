@@ -61,7 +61,6 @@ Plug 'mattn/emmet-vim'
 Plug 'majutsushi/tagbar', { 'on': ['TagbarOpen', 'TagbarToggle'] }
 
 " Better statusline
-" Plug 'hoob3rt/lualine.nvim'
 Plug 'itchyny/lightline.vim'
 
 " Colorful parantheses
@@ -70,20 +69,13 @@ Plug 'junegunn/rainbow_parentheses.vim'
 " Maximize window
 Plug 'szw/vim-maximizer'
 
-" Better notetaking
-" Plug 'vimwiki/vimwiki'
-" Plug 'tools-life/taskwiki'
-" Plug 'powerman/vim-plugin-AnsiEsc'
-" Plug 'godlygeek/tabular'|
-            " \ Plug 'plasticboy/vim-markdown'
-
 " Zen-mode in vim
 Plug 'junegunn/goyo.vim'
 
 " TODO Show list of available keybindings
 " Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!'] }
 
-" TODO Tmux integration
+" Tmux integration
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'jpalardy/vim-slime'
 Plug 'preservim/vimux'
@@ -166,21 +158,16 @@ nnoremap <leader>gl <cmd>Git log<cr>
 nnoremap <leader>gp <cmd>Git push<cr>
 
 " Help and documentation [h]
-nnoremap <leader>hpi <cmd>PlugInstall<cr>
-nnoremap <leader>hpc <cmd>PlugClean<cr>
-nnoremap <leader>hpu <cmd>PlugUpdate<cr>
+nnoremap <leader>hpi <cmd>CocList marketplace<cr>
 nnoremap <leader>hdh <cmd>help<cr>
 nnoremap <leader>hdt :lua require('telescope.builtin').colorscheme()<cr>
 nnoremap <leader>hdk :lua require('telescope.builtin').keymaps()<cr>
 nnoremap <leader>hc <cmd>edit ~/.config/nvim/init.vim<cr>
-nnoremap <leader>hck <cmd>edit ~/.config/nvim/settings/keymap.vim<cr>
-nnoremap <leader>hcp <cmd>edit ~/.config/nvim/settings/plugins.vim<cr>
-nnoremap <leader>hcs <cmd>edit ~/.config/nvim/settings/sets.vim<cr>
 vnoremap K :m '<-2<CR>gv=gv
 
 " Toggle autocompiler [a]
-nnoremap <leader>aw :!setsid autocomp web &<cr>
-nnoremap <leader>am :!setsid autocomp make &<cr>
+" nnoremap <leader>aw :!setsid autocomp web &<cr>
+" nnoremap <leader>am :!setsid autocomp make &<cr>
 
 " Debugger [d]
 nnoremap <leader>dd :call vimspector#Launch()<CR>
