@@ -56,7 +56,7 @@ RUN apk update && apk add -U --no-cache \
     npm \
     ctags \
     clang-extra-tools \
-    # shellcheck \
+    shellcheck \
     fd \
     bat
 
@@ -72,6 +72,7 @@ ENV HOME /home/me
 RUN \
     git clone https://github.com/neovim/neovim.git nvim && \
     cd nvim && \
+    sed -i 's/CMAKE_BUILD_TYPE ?= .*/CMAKE_BUILD_TYPE=RelWithDebInfo/' Makefile && \
     make && make install && \
     cd ../ && rm -rf nvim
 # Installing vim-plug
