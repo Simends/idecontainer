@@ -64,11 +64,16 @@ RUN curl -fLo ${HOME}/.config/nvim/autoload/plug.vim --create-dirs https://raw.g
 # Installing needed plugins
 RUN npm install -g neovim
 RUN pip3 install neovim
-# Consult the vimrc file to see what's installed
-COPY neovim/base/* ${HOME}/.config/nvim/
+# Code minimap
+RUN wget https://github.com/wfxr/code-minimap/releases/download/v0.6.0/code-minimap-v0.6.0-x86_64-unknown-linux-musl.tar.gz
+RUN tar -zxvf code-minimap-*.tar.gz
+RUN mv code-minimap-*/code-minimap /usr/bin/
+RUN rm -rf code-minimap-*
+# Copy neovim configuration
 COPY neovim/lua/* ${HOME}/.config/nvim/lua/
 COPY neovim/plugin/* ${HOME}/.config/nvim/plugin/
-COPY neovim/settings/* ${HOME}/.config/nvim/settings/
+COPY vimrc ${HOME}/.config/nvim/init.vim
+COPY coc-settings.json ${HOME}/.config/nvim/coc-settings.json
 # Installing plugins
 RUN nvim -es -u ${HOME}/.config/nvim/init.vim -i NONE -c "PlugInstall" -c "qa" || exit 0
 # Coc.nvim
@@ -92,17 +97,11 @@ RUN git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.
 
 # Install TMUX
 ENV TMUX_PLUGIN_MANAGER_PATH ${HOME}/.tmux/plugins
-COPY tmux ${HOME}/.tmux.conf
+COPY tmuxrc ${HOME}/.tmux.conf
 # COPY defaulttmuxsession.yaml ${HOME}/defaulttmuxsession.yaml
 # RUN pip3 install --user tmuxp
 RUN git clone https://github.com/tmux-plugins/tpm ${HOME}/.tmux/plugins/tpm && \
     ${HOME}/.tmux/plugins/tpm/bin/install_plugins
-
-# Code minimap
-RUN wget https://github.com/wfxr/code-minimap/releases/download/v0.6.0/code-minimap-v0.6.0-x86_64-unknown-linux-musl.tar.gz
-RUN tar -zxvf code-minimap-*.tar.gz
-RUN mv code-minimap-*/code-minimap /usr/bin/
-RUN rm -rf code-minimap-*
 
 # Copy git config over
 COPY gitconfig ${HOME}/.gitconfig

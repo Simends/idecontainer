@@ -1,7 +1,101 @@
+"
+"   _   _                 _
+"  | \ | | ___  _____   _(_)_ __ ___
+"  |  \| |/ _ \/ _ \ \ / / | '_ ` _ \
+"  | |\  |  __/ (_) \ V /| | | | | | |
+"  |_| \_|\___|\___/ \_/ |_|_| |_| |_|
+"
 
-" KEYMAP
+" ===== PLUGINS =====
+call plug#begin()
 
-" Define leader
+" Colorschemes
+" Plug 'arcticicestudio/nord-vim'
+Plug 'morhetz/gruvbox'
+Plug 'tssm/fairyfloss.vim'
+" Plug 'ayu-theme/ayu-vim'
+Plug 'drewtempelmeyer/palenight.vim'
+
+" Emacs-style undotree
+Plug 'mbbill/undotree'
+
+" Telescope fuzzy-finder
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+" Plug 'junegunn/fzf.vim'
+
+" Easily comment lines
+Plug 'preservim/nerdcommenter'
+
+" Easy search
+Plug 'justinmk/vim-sneak'
+
+" Icons
+Plug 'ryanoasis/vim-devicons'
+
+" Quick overview of project
+Plug 'preservim/nerdtree'|
+            \ Plug 'Xuyuanp/nerdtree-git-plugin'|
+            \ Plug 'PhilRunninger/nerdtree-visual-selection'|
+            \ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+
+" Git in vim
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+
+" Minimap
+Plug 'wfxr/minimap.vim', { 'on': ['Minimap', 'MinimapToggle'] }
+
+" TODO Debug in vim
+Plug 'puremourning/vimspector', { 'on': ['<Plug>vimspector#Launch()', 'VimspectorInstall', 'VimspectorUpdate'] }
+
+" Snippets in vim
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
+" Tag list
+Plug 'majutsushi/tagbar', { 'on': ['TagbarOpen', 'TagbarToggle'] }
+
+" Better statusline
+" Plug 'hoob3rt/lualine.nvim'
+Plug 'itchyny/lightline.vim'
+
+" Maximize window
+Plug 'szw/vim-maximizer'
+
+" Better notetaking
+" Plug 'vimwiki/vimwiki'
+" Plug 'tools-life/taskwiki'
+" Plug 'powerman/vim-plugin-AnsiEsc'
+" Plug 'godlygeek/tabular'|
+            " \ Plug 'plasticboy/vim-markdown'
+
+" Zen-mode in vim
+Plug 'junegunn/goyo.vim'
+
+" TODO Show list of available keybindings
+" Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!'] }
+
+" TODO Tmux integration
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'jpalardy/vim-slime'
+Plug 'preservim/vimux'
+
+" Automatic pair
+Plug 'alvan/vim-closetag'
+Plug 'jiangmiao/auto-pairs'
+
+" Better statusline
+Plug 'hoob3rt/lualine.nvim'
+
+" Coc
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+call plug#end()
+
+
+" ===== KEYMAP =====
 let mapleader = " "
 
 " Short stuff
@@ -130,3 +224,61 @@ xmap <leader>c  <Plug>(coc-codeaction-selected)
 nmap <leader>c  <Plug>(coc-codeaction-selected)
 
 imap <C-l> <Plug>(coc-snippets-expand)
+
+
+" ===== SETTINGS =====
+
+" Line number
+set relativenumber
+set number
+
+" Search
+set ignorecase
+set smartcase
+set nohlsearch
+
+" Prompts
+set confirm
+set novisualbell noerrorbells
+
+" History
+set history=500
+set undofile
+set hidden
+set nobackup
+set nowritebackup
+set noswapfile
+
+" Tabs
+set tabstop=4		" Number of visual spaces per tab
+set softtabstop=4	" Number of spaces in tab when editing
+set shiftwidth=4	" Number of spaces to use for autoindent
+set expandtab		" Expand tabs to spaces
+set smartindent
+
+" Wildmenu
+set wildchar=<Tab> wildmenu wildmode=full
+
+" Better splits
+set splitbelow
+set splitright
+
+set linebreak
+set nowrap
+set scrolloff=15
+set updatetime=50
+set encoding=utf-8
+set noshowmode
+set termguicolors
+set signcolumn=yes
+set cmdheight=2
+set shortmess+=c
+set mouse=a
+set background=dark
+set t_Co=256
+
+command! -nargs=0 Format :CocCommand prettier.formatFile
+let g:palenight_terminal_italics=1
+
+" Set colorscheme
+colorscheme palenight
