@@ -272,6 +272,9 @@ set t_Co=256
 
 command! -nargs=0 Format :CocCommand prettier.formatFile
 let g:palenight_terminal_italics=1
+autocmd BufEnter * :RainbowParentheses<cr>                      " Activate rainbow parantheses
+autocmd FileType vim let b:AutoPairs = {"(": ")", "{": "}"}     " Limit autopair if editing vimscript-files
+autocmd BufEnter vimrc let b:AutoPairs = {"(": ")", "{": "}"}
 
 " Set colorscheme
 colorscheme palenight
