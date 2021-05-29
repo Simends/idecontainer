@@ -29,7 +29,7 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'preservim/nerdcommenter'
 
 " Easy search
-Plug 'justinmk/vim-sneak'
+" Plug 'justinmk/vim-sneak'
 
 " Icons
 Plug 'ryanoasis/vim-devicons'
@@ -107,13 +107,14 @@ nnoremap <leader>2p <cmd>2bp<cr>
 nnoremap <leader>3p <cmd>3bp<cr>
 nnoremap <leader>4p <cmd>4bp<cr>
 nnoremap <leader>5p <cmd>5bp<cr>
-nmap f <Plug>Sneak_s
-nmap F <Plug>Sneak_S
-nmap ' <Plug>Sneak_;
-xmap f <Plug>Sneak_s
-xmap F <Plug>Sneak_S
-xmap ' <Plug>Sneak_;
+" nmap f <Plug>Sneak_s
+" nmap F <Plug>Sneak_S
+" nmap ' <Plug>Sneak_;
+" xmap f <Plug>Sneak_s
+" xmap F <Plug>Sneak_S
+" xmap ' <Plug>Sneak_;
 " nnoremap <leader>w <C-w>
+nnoremap ' ;
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
